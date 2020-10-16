@@ -1,0 +1,35 @@
+<!--pages/demo7/demo7.wxml-->
+<text>pages/demo7/demo7.wxml</text>
+<view >****演示各种icon*****</view>
+<icon type="success" />
+<view ></view>
+<icon type="search" />
+<view ></view>
+<icon type="watting" />
+<view ></view>
+<icon type="cancel" />
+<view ></view>
+<icon type="warn" size="45" />
+<view ></view>
+<icon type="clear" />
+<view ></view>
+<view >****演示各种单选框radio*****</view>
+
+<radio-group bindchange="mychange">
+    <radio value="male" /> 男
+    <radio value="female" /> 女
+</radio-group>
+<view >{{msg}}</view>
+
+<view >****演示各种复选框checkbox*****</view>
+<checkbox-group bindchange="mychange2">
+    <label wx:for="{{list}}" wx:for-item="item" wx:key="{{item.id}}">
+        <checkbox value="{{item.value}}" /> {{item.name}}
+    </label>
+</checkbox-group>
+
+
+<view >{{checklist}}</view>
+
+<view >****演示页面跳转到demo3*****</view>
+<navigator url="../demo3/demo3">跳转到demo3</navigator>

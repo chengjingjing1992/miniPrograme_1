@@ -1,0 +1,4 @@
+<!--pages/demo5/demo5.wxml-->
+<text>pages/demo5/demo5.wxml</text>
+
+<rich-text nodes="{{html}}" ></rich-text>

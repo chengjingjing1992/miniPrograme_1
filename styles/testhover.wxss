@@ -1,0 +1,12 @@
+.clickcolor{
+  color: aqua;
+  
+}
+.hover {
+  background-color: red;
+  color: yellow;
+}
+image{
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,55 @@
+<!--pages/mine/mine.wxml-->
+<text>pages/mine/mine.wxml</text>
+<text>1</text>
+<text>2</text>
+
+<view>3</view>
+<view>4</view>
+<view>******************************</view>
+<view>1，演示数据绑定：获取字符串{{name}}</view>
+<view>2，演示数据绑定：获取数字{{age}}</view>
+<view>3，取布尔类型{{married}}</view>
+<view>4，演示数据绑定：获取对象属性{{wife.name}}</view>
+<view>演示数据绑定：获取对象属性{{wife.age}}</view>
+<view data-num="{{num}}">5，演示自定义属性</view>
+<view>
+  <checkbox checked="{{isChecked}}">身份证</checkbox>
+  <checkbox >驾驶证</checkbox>
+  <checkbox >护照</checkbox>
+</view>
+<view>演示运算{{2+8}}</view>
+<view>演示运算{{'123'+'456'}}</view>
+
+<view>*********演示列表循环*******</view>
+<view wx:for="{{list}}" wx:for-item="item" wx:for-index="index">
+<view>列表下标：{{index}}</view>
+<view>列表中元素：{{item}}</view>
+</view>
+<view>*********演示对象集合循环*******</view>
+<view>
+  <view wx:for="{{animals}}" wx:for-item="animal" wx:for-index="">
+    <view>{{animal.name+'有'}}  {{animal.legs+'只腿 性别：'}}
+      <text wx:if="{{animal.sex==1}}">公</text>
+    <text wx:elif="{{animal.sex==2}}">母</text>
+    <text wx:else>无法确定</text>
+    </view>
+    
+  </view>
+</view>
+<view>*********演示单个对象的属性遍历*******</view>
+<view wx:for="{{person}}" wx:for-item="value" wx:for-index="key">
+<view>{{key}}</view>
+<view>{{value}}</view>
+</view>
+
+<view>*********演示hidden*******</view>
+<view hidden="{{true}}">1111111</view>
+<view hidden="{{false}}">2222222</view>
+
+
+
+
+
+
+
+

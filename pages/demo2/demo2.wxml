@@ -1,0 +1,14 @@
+<!--pages/demo2/demo2.wxml-->
+<text>pages/demo2/demo2.wxml</text>
+<!-- <swiper >
+    <swiper-item mode="widthFix"><image src="http://www.rohon.net/images/index/RotationChart/Artboard.png" /></swiper-item>
+    <swiper-item mode="widthFix"><image src="http://www.rohon.net/images/index/RotationChart/banner.png" /></swiper-item>
+    <swiper-item mode="widthFix"><image src="http://www.rohon.net:80/images/index/RotationChart/voidImges2.jpg" /></swiper-item>
+</swiper> -->
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{2000}}" duration="{{500}}">
+    <block wx:for="{{imgUrls}}">
+        <swiper-item mode="widthFix">
+            <image class="swiper-image" src="{{item}}" />
+        </swiper-item>
+    </block>
+</swiper>

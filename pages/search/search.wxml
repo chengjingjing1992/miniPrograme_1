@@ -1,0 +1,28 @@
+<!--pages/search/search.wxml-->
+<text>pages/search/search.wxml</text>
+<text>111</text>
+
+<view>*********演示输入事件 上边输啥 下面显示啥************</view>
+<view>
+  <input  type="text" bindinput="change"/>
+</view>
+<view wx:if="{{num!=null}}">{{num}}</view>
+<view>*********演示点击事件 ************</view>
+<view>
+  <input  type="" bindtap="suanshu()"/>
+  <button bindtap="suanshu" data-opp="{{1}}">+1</button>
+  <button bindtap="suanshu" data-opp="{{-1}}">-1</button>
+<view>{{numm}}</view>
+</view>
+
+<view hover-class='clickcolor'>演示1qview标签hover-class属性 长按变色 </view>
+<button hover-class="hover"> 点击button </button>
+
+<text selectable="{{true}}">****演示text标签selectable属性 此文本长按可复制******</text>
+<view> *********演示text标签decode属性 实现 解码 空格********</view>
+<text decode="{{true}}">解码:124&nbsp;&nbsp;&nbsp;456</text>
+<View></View>
+<text decode="{{false}}">未解码:124&nbsp;&nbsp;&nbsp;456</text>
+<image src="https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=1886967111,1528338114&fm=85&app=92&f=JPEG?w=121&h=75&s=CEB010C3C853C2C40A3CF2B003007001" mode="widthFix" lazy-load="{{false}}"></image>
+<image src="https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=1886967111,1528338114&fm=85&app=92&f=JPEG?w=121&h=75&s=CEB010C3C853C2C40A3CF2B003007001" mode="right" lazy-load="{{false}}"></image>
+<image src="https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=1886967111,1528338114&fm=85&app=92&f=JPEG?w=121&h=75&s=CEB010C3C853C2C40A3CF2B003007001" mode="aspectFill" lazy-load="{{false}}"></image>

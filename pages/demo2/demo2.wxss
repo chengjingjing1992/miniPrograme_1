@@ -1,0 +1,8 @@
+/* pages/demo2/demo2.wxss */
+swiper{
+    width: 100%;
+    height: calc(100vw*868/1920); /* 计算swiper 的高度*/
+}
+image{
+    width: 100%;
+}

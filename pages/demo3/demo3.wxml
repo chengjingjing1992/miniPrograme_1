@@ -1,0 +1,6 @@
+<!--pages/demo3/demo3.wxml-->
+<text>pages/demo3/demo3.wxml</text>
+<navigator url="../demo2/demo2">点击跳转到轮播图页面 (保留当前页面可返回)</navigator>
+<view></view>
+<navigator open-type="redirect" url="../demo2/demo2">点击跳转到轮播图页面(通过home键返回)</navigator>
+<navigator open-type="switchTab" url="../index/index">点击跳转到tabbar页面</navigator>

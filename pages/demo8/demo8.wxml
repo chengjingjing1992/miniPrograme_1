@@ -1,0 +1,21 @@
+<!--pages/demo8/demo8.wxml-->
+<text>pages/demo8/demo8.wxml</text>
+<view > button 按钮的开放能力</view>
+<!-- <button open-type="contact"> 打开客服会话[需真机演示]</button> -->
+<view ></view>
+
+<button open-type="share"> 小程序分享到朋友（非朋友圈）</button>
+<view ></view>
+<button open-type="getPhoneNumber" bindgetphonenumber="getphonenumber" > 获取用户手机号码[企业]</button>
+<view >获取到的加密后的手机号:</view>
+<view >{{iv}}</view>
+<view >{{encryptedData}}</view>
+<view ></view>
+
+<button open-type="getUserInfo" bindgetuserinfo="getuserinfo"> 获取用户个人信息</button>
+<view wx:for="{{userInfo}}" wx:for-item="value" wx:for-index="key">
+<text >{{key}}:{{value}}</text>
+</view>
+
+<button open-type="openSetting"> 打开小程序的内置授权页面</button>
+<button open-type="feedback"> 打开小程序的内置意见反馈</button>

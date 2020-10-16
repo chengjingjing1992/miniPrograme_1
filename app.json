@@ -1,12 +1,59 @@
 {
   "pages":[
+    "pages/demo8/demo8",
+    "pages/demo7/demo7",
+    "pages/demo6/demo6",
+    "pages/demo5/demo5",
+    "pages/demo4/demo4",
+    "pages/demo3/demo3",
+    "pages/demo2/demo2",
+    "pages/demo1/demo1",
     "pages/index/index",
+    "pages/imgee/img",
+    "pages/search/search",
+    "pages/mine/mine",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "list":[
+      
+      {
+        "pagePath": "pages/demo1/demo1",
+        "text": "demo1",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/_home.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/_home.png"
+      },
+      {
+        "pagePath": "pages/imgee/img",
+        "text": "图文",
+        "iconPath": "icon/img.png",
+        "selectedIconPath": "icon/_img.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "icon/search.png",
+        "selectedIconPath": "icon/_search.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/my.png",
+        "selectedIconPath": "icon/_my.png"
+      }
+    ]
+  }
+  ,
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "融航",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
