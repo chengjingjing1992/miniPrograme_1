@@ -9,7 +9,7 @@ Page({
     list:[
       {id:0,name:"香蕉",value:"香蕉"},
       {id:1,name:"苹果",value:"苹果"},
-      {id:2,name:"橘子",value:"橘s子"}
+      {id:2,name:"橘子",value:"橘ss子"}
     ],
     checklist:""
   },
