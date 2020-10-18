@@ -1,0 +1,7 @@
+<Tab tabss="{{tabss}}" bindhandleone="handleClickone" ttname="{{titleName}}" persons="{{personsinfo}}">
+
+</Tab>
+<block wx:if="{{tabss[0].isActive==true}}">0</block>
+<block wx:elif="{{tabss[1].isActive==true}}">1</block>
+<block wx:elif="{{tabss[2].isActive==true}}">2</block>
+<block wx:else="{{tabss[3].isActive==true}}">3</block>
