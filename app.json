@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/demo10/demo10",
     "pages/demo9/demo9",
     "pages/demo8/demo8",
     "pages/demo7/demo7",
@@ -55,7 +56,8 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "融航",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

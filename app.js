@@ -1,6 +1,9 @@
 //app.js
 App({
+  //1 应用第一次启动就会触发的事件
   onLaunch: function () {
+    console.log(' 我是 onLaunch 应用第一次启动就会触发的事件');
+    
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -33,7 +36,20 @@ App({
       }
     })
   },
-  globalData: {
-    userInfo: null
+  //2 被看到就会触发
+  onShow(){
+    console.log('我是 onShow 我被看到就会触发 用途：数据或页面效果进行重置');
+  },
+  onHide(){
+    //3 暂停或者清楚定时器
+    console.log('我是hide 应用被隐藏时候触发');
+  },
+  //4 当代码发生报错时候 触发 
+  //用途 收集错误信息 通过异步请求 发送给后台
+  onError(err){
+    console.log('代码报错时候触发');
+    console.log(err);
   }
+
+  
 })
