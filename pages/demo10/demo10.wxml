@@ -1,7 +1,7 @@
 <!--pages/demo10/demo10.wxml-->
 <text>pages/demo10/demo10.wxml</text>
 <navigator url="../../pages/demo9/demo9">demo9</navigator>
-<view>1</view>
+<view>1111</view>
 <view>2</view>
 <view>3</view>
 <view>4</view>
